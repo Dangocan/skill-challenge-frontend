@@ -1,11 +1,10 @@
 import { StyledMainInput } from "./style";
 
-type TMainInputProps = {
-  title: string;
-  placeHolder: boolean;
-};
+interface TMainInputProps extends React.HTMLAttributes<HTMLInputElement> {
+  labeled?: boolean;
+}
 
-function MainInput({ title, placeHolder }: TMainInputProps) {
+function MainInput({ labeled }: TMainInputProps) {
   return <StyledMainInput />;
 }
 

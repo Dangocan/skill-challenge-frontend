@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledMainInput = styled.input`
+export const StyledDataTableWrapper = styled.div`
   border: 1px solid red;
-  width: 100%;
+  width: 80%;
 `;

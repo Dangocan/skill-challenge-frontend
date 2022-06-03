@@ -1,5 +1,11 @@
+import { Locais } from "./pages";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Locais />
+    </>
+  );
 }
 
 export default App;

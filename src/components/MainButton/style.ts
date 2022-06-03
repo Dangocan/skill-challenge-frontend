@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-export const StyledMainInput = styled.input`
+export const StyledMainButton = styled.button`
   border: 1px solid red;
-  width: 100%;
 `;
